@@ -10,10 +10,13 @@ A production-grade, fully customizable **3D tilted elliptical ring chart** for F
 
 ## Screenshots
 
-| Dark Mode | Light Mode |
-|:-:|:-:|
-| ![Dark Mode](screenshots/dark.png) | ![Light Mode](screenshots/light.png) |
+| Dark Mode |
+|:-:|
+| ![Dark Mode](screenshots/dark.png) |
 
+| Light Mode |
+|:-:|
+| ![Light Mode](screenshots/light.png) |
 
 
 ---
