@@ -153,10 +153,11 @@ class ThreeDRingPainter extends CustomPainter {
   Color _segmentShadowColor(int i, bool selected) {
     final shadow = style.shadowStyle;
     if (selected) {
+        final g = colors[i].glow;
       return Color.fromRGBO(
-        colors[i].glow.red,
-        colors[i].glow.green,
-        colors[i].glow.blue,
+          (g.r * 255).round(),
+        (g.g * 255).round(),
+        (g.b * 255).round(),
         shadow.opacity,
       );
     }
@@ -192,10 +193,11 @@ class ThreeDRingPainter extends CustomPainter {
       // Glow layers (only if segment has some selection amount)
       if (glow.enabled && selAmount > 0.01) {
         final glowOpacity = glow.opacity * selAmount;
+          final gc = colors[i].glow;
         final glowColor = Color.fromRGBO(
-          colors[i].glow.red,
-          colors[i].glow.green,
-          colors[i].glow.blue,
+          (gc.r * 255).round(),
+          (gc.g * 255).round(),
+          (gc.b * 255).round(),
           glowOpacity,
         );
 
@@ -278,9 +280,9 @@ class ThreeDRingPainter extends CustomPainter {
         [
           lineColor,
           Color.fromRGBO(
-            lineColor.red,
-            lineColor.green,
-            lineColor.blue,
+             (lineColor.r * 255).round(),
+            (lineColor.g * 255).round(),
+            (lineColor.b * 255).round(),
             0.2,
           ),
         ],

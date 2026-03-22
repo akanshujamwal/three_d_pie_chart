@@ -1,5 +1,5 @@
 name: three_d_pie_chart_example
-description: Demonstrates all features of the three_d_pie_chart package.
+description: A customizable 3D tilted ring chart for Flutter with smooth animations, glow effects, theme adaptation, and 30+ style parameters.
 publish_to: 'none'
 
 environment:
