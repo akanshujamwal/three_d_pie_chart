@@ -1,9 +1,6 @@
 name: three_d_pie_chart
-description: >
-  A highly customizable, production-grade 3D tilted elliptical ring chart
-  (pie/donut chart) for Flutter. Supports unlimited segments, smooth animations,
-  theme adaptation, interactive callbacks, and fully configurable visuals.
-version: 1.0.0
+description: A customizable 3D tilted ring chart for Flutter with smooth animations, glow effects, theme adaptation, and 30+ style parameters.
+version: 1.0.3
 homepage: https://github.com/akanshujamwal/three_d_pie_chart
 repository: https://github.com/akanshujamwal/three_d_pie_chart
 issue_tracker: https://github.com/akanshujamwal/three_d_pie_chart/issues

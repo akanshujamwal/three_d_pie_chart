@@ -58,7 +58,7 @@ void main() {
       final arcs = computeArcs(values, gap);
 
       final totalSweep = arcs.fold<double>(0, (s, a) => s + a.sweepAngle);
-      final gapRad = gap * pi / 180;
+      const gapRad = gap * pi / 180;
       final expectedUsable = 2 * pi - gapRad * values.length;
 
       expect(totalSweep, closeTo(expectedUsable, 0.001));

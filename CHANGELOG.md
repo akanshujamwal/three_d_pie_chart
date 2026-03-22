@@ -11,3 +11,7 @@
 * Tap callback with segment index and data.
 * Supports 1 to 1000+ segments.
 * Comprehensive documentation and 12 example demos.
+
+## 1.0.3
+* Fixed deprecated Color API usage for Dart 3.x compatibility.
+* Shortened package description for pub.dev scoring.
